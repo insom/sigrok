@@ -1,0 +1,17 @@
+Source: sigrok
+Section: electronics
+Priority: extra
+Maintainer: Uwe Hermann <uwe@debian.org>
+Build-Depends: cdbs, debhelper (>= 7.0.50~)
+Standards-Version: 3.9.5
+Homepage: http://sigrok.org
+
+Package: sigrok
+Architecture: all
+Depends: ${misc:Depends}, sigrok-cli (>= 0.5.0), pulseview (>= 0.2.0), sigrok-firmware-fx2lafw (>= 0.1.2)
+Description: Logic analyzer and protocol decoder software suite (metapackage)
+ sigrok is a portable logic analyzer software that supports various
+ logic analyzer hardware, input formats, output formats, and protocol decoders.
+ .
+ This is a metapackage depending on (almost) all sigrok related packages.
+

@@ -1,0 +1,29 @@
+sigrok (0.2-3) unstable; urgency=medium
+
+  * Bump dependency to sigrok-cli >= 0.5.0.
+  * Add dependency on pulseview >= 0.2.0 (Closes: #748337).
+  * Add dependency on sigrok-firmware-fx2lafw >= 0.1.2.
+  * Standards-Version: 3.9.5 (no changes required).
+
+ -- Uwe Hermann <uwe@debian.org>  Wed, 02 Jul 2014 22:54:46 +0200
+
+sigrok (0.2-2) unstable; urgency=low
+
+  * Bump dependency to sigrok-cli >= 0.4.0.
+  * Standards-Version: 3.9.4 (no changes required).
+
+ -- Uwe Hermann <uwe@debian.org>  Sun, 02 Jun 2013 19:15:06 +0200
+
+sigrok (0.2-1) unstable; urgency=low
+
+  * The 'sigrok' package is now a metapackage, depending on (almost) all
+    sigrok related packages (Closes: #673854, #653565).
+  * Standards-Version: 3.9.3 (no changes required).
+
+ -- Uwe Hermann <uwe@debian.org>  Wed, 23 May 2012 14:07:17 +0200
+
+sigrok (0.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #579600).
+
+ -- Uwe Hermann <uwe@debian.org>  Thu, 20 Jan 2011 21:10:30 +0100
