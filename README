@@ -1,0 +1,3 @@
+Since 0.2-1, the sigrok package is now a metapackage depending on
+(almost) all sigrok related packages.
+
